@@ -16,7 +16,7 @@ class MyTableVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        myPuzzleFamilies = defaults.array(forKey: "myToDoList") as? [String] ?? myPuzzleFamilies
     }
 
 
