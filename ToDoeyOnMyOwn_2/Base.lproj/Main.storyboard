@@ -33,6 +33,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To Do List" id="nCe-s3-7w1">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gLD-BX-kYr">
+                            <connections>
+                                <action selector="cancelAll:" destination="XWE-Ln-ypk" id="NsC-Xd-neo"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="o4D-3P-OhW">
                             <connections>
                                 <action selector="myAddButton:" destination="XWE-Ln-ypk" id="1qO-gJ-apW"/>
